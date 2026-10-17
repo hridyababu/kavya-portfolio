@@ -3,6 +3,8 @@
 //        Edit this file to update your personal information, projects, etc.
 // ==========================================================================
 import kachaaLogo from "../assets/images/kachaa.jpeg";
+import profileImg from "../assets/images/profile.jpeg";
+import hskLogo from "../assets/images/hsk.jpeg";
 import metaAdsProfile from "../assets/images/metaads.png";
 import instagramPostersProfile from "../assets/images/instagramposters.png";
 import reelEditsProfile from "../assets/images/reeledits.png";
@@ -12,8 +14,8 @@ export const personalInfo = {
   title: "DIGITAL MARKETING EXPERT",
   tagline: "Creating meaningful digital experiences through creativity, content and strategy.",
   email: "kavyakr790@gmail.com",
-  phone: "+91 7356069612",
-  location: "Kerala, India",
+  phone: "+971 569 160 525",
+  location: "Dubai, UAE",
 
   // EDIT HERE: Social links - replace with your real URLs when you have them
   social: {
@@ -21,7 +23,7 @@ export const personalInfo = {
     github: "#",   // TODO: replace with your GitHub URL, e.g. "https://github.com/yourname"
   },
 
-  profileImage: "/src/assets/images/profile.jpeg", // TODO: add a profile picture path (place in src/assets/images/), e.g. "/src/assets/images/profile.jpg"
+  profileImage: profileImg,
 };
 
 export const aboutMe = {
@@ -232,7 +234,7 @@ export const works = [
     title: "Logo Concepts",
     category: "Design",
     description: "A collection of logo drafts and brand-mark explorations created for practice and experimentation.",
-    image: "/src/assets/images/kachaa.jpeg", // TODO: add image path
+    image: kachaaLogo,
     tags: ["Logo", "Branding", "Canva"],
     link: null, // add URL string if project is hosted online
   },
@@ -240,7 +242,7 @@ export const works = [
     title: "Logo Concepts",
     category: "Design",
     description: "A collection of logo drafts and brand-mark explorations created for practice and experimentation.",
-    image: "/src/assets/images/hsk.jpeg", // TODO: add image path
+    image: hskLogo,
     tags: ["Logo", "Branding", "Canva"],
     link: null, // add URL string if project is hosted online
   },

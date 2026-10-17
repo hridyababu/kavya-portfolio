@@ -102,10 +102,7 @@ export default function Contact() {
               </div>
             </a>
 
-            <a
-              href={`tel:${personalInfo.phone.replace(/\s+/g, "")}`}
-              className="card card-hover p-6 flex items-start gap-4 group block"
-            >
+            <div className="card p-6 flex items-start gap-4 group block">
               <div className="w-12 h-12 rounded-2xl bg-sage-50 text-sage-700 flex items-center justify-center group-hover:bg-sage-500 group-hover:text-white transition-colors">
                 <Phone size={22} />
               </div>
@@ -116,9 +113,9 @@ export default function Contact() {
                 <div className="font-semibold text-ink-950 break-words group-hover:text-sand-700 transition-colors">
                   {personalInfo.phone}
                 </div>
-                <div className="text-ink-400 text-xs mt-1">Calls or WhatsApp messages</div>
+                <div className="text-ink-400 text-xs mt-1">Direct contact number</div>
               </div>
-            </a>
+            </div>
 
             <div className="card p-6 flex items-start gap-4">
               <div className="w-12 h-12 rounded-2xl bg-sand-50 text-sand-700 flex items-center justify-center">

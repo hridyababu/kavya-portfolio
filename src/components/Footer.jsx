@@ -104,12 +104,9 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={16} className="text-sand-300 mt-0.5 flex-shrink-0" />
-                <a
-                  href={`tel:${personalInfo.phone.replace(/\s+/g, "")}`}
-                  className="text-white/75 hover:text-sand-300 transition"
-                >
+                <span className="text-white/75 transition">
                   {personalInfo.phone}
-                </a>
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <Linkedin
