@@ -2,16 +2,28 @@ import { useState, useEffect } from "react";
 
 const metaAds = [
   {
-    src: "/images/meta/meta1.jpeg",
+    src: "/images/meta/me1.jpeg",
     title: "Meta Ads Creative — Sample 1",
   },
   {
-    src: "/images/meta/meta2.jpeg",
+    src: "/images/meta/me2.jpeg",
     title: "Meta Ads Creative — Sample 2",
   },
   {
-    src: "/images/meta/meta3.jpeg",
+    src: "/images/meta/me3.jpeg",
     title: "Meta Ads Creative — Sample 3",
+  },
+  {
+    src: "/images/meta/me4.jpeg",
+    title: "Meta Ads Creative — Sample 4",
+  },
+  {
+    src: "/images/meta/me5.jpeg",
+    title: "Meta Ads Creative — Sample 5",
+  },
+  {
+    src: "/images/meta/me6.jpeg",
+    title: "Meta Ads Creative — Sample 6",
   },
 ];
 
